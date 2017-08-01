@@ -1,4 +1,5 @@
-# Gilded Rose Refactoring Kata
+# COPIED FROM - https://github.com/NotMyself/GildedRose.git
+#Gilded Rose Refactoring Kata
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a 
 prime location in a prominent city ran by a friendly innkeeper named 
