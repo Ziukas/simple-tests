@@ -39,7 +39,7 @@ namespace GildedRose.Console.Tests
             */
 
 
-        //At the end of each day our system lowers both values for every item (also covers items gaving properties)
+        //At the end of each day our system lowers both values for every item (also covers items having properties)
         [TestMethod()]
         public void UpdateQualityTest_RegularExample()
         {
