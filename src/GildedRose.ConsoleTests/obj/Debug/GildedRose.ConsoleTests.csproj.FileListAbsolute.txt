@@ -1,0 +1,15 @@
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\bin\Debug\GildedRose.ConsoleTests.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\bin\Debug\GildedRose.ConsoleTests.pdb
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\bin\Debug\GildedRose.Console.exe
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\bin\Debug\GildedRose.Console.pdb
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\bin\Debug\GildedRose.Console.exe.config
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\obj\Debug\GildedRose.ConsoleTests.csprojResolveAssemblyReference.cache
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\obj\Debug\GildedRose.ConsoleTests.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.ConsoleTests\obj\Debug\GildedRose.ConsoleTests.pdb

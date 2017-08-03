@@ -1,13 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace GildedRose.Console
 {
-    class Program
+    public class Program
     {
-        IList<Item> Items;
+        public IList<Item> Items;
         static void Main(string[] args)
         {
-            System.Console.WriteLine("OMGHAI!");
+            System.Console.WriteLine("Started");
 
             var app = new Program()
                           {
@@ -34,79 +35,49 @@ namespace GildedRose.Console
 
         }
 
+        public void ChangeIItemQualityByJ(int i, int J)
+        {
+            if (J == 0) return;
+            if (J > 0)
+                Items[i].Quality = Math.Min(50, Items[i].Quality + J);
+            else
+                Items[i].Quality = Math.Max(0, Items[i].Quality + J);
+        }
+
         public void UpdateQuality()
         {
             for (var i = 0; i < Items.Count; i++)
             {
-                if (Items[i].Name != "Aged Brie" && Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
-                {
-                    if (Items[i].Quality > 0)
-                    {
-                        if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
-                        {
-                            Items[i].Quality = Items[i].Quality - 1;
-                        }
-                    }
-                }
-                else
-                {
-                    if (Items[i].Quality < 50)
-                    {
-                        Items[i].Quality = Items[i].Quality + 1;
-
-                        if (Items[i].Name == "Backstage passes to a TAFKAL80ETC concert")
-                        {
-                            if (Items[i].SellIn < 11)
-                            {
-                                if (Items[i].Quality < 50)
-                                {
-                                    Items[i].Quality = Items[i].Quality + 1;
-                                }
-                            }
-
-                            if (Items[i].SellIn < 6)
-                            {
-                                if (Items[i].Quality < 50)
-                                {
-                                    Items[i].Quality = Items[i].Quality + 1;
-                                }
-                            }
-                        }
-                    }
-                }
-
                 if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
                 {
-                    Items[i].SellIn = Items[i].SellIn - 1;
-                }
-
-                if (Items[i].SellIn < 0)
-                {
-                    if (Items[i].Name != "Aged Brie")
-                    {
-                        if (Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
-                        {
-                            if (Items[i].Quality > 0)
-                            {
-                                if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
-                                {
-                                    Items[i].Quality = Items[i].Quality - 1;
-                                }
-                            }
-                        }
-                        else
-                        {
-                            Items[i].Quality = Items[i].Quality - Items[i].Quality;
-                        }
+                    //Hand of Ragnaros stays as is, all others have their SellIn decreased by one
+                    Items[i].SellIn--;
+                    int adjustBy = 0;
+                    switch (Items[i].Name)
+                    {                        
+                        case "Aged Brie":
+                            adjustBy = Items[i].SellIn < 0 ? 2 : 1; //increases in Quality as it's SellIn value approaches, double when after
+                            break;                        
+                        case "Backstage passes to a TAFKAL80ETC concert":
+                            if (Items[i].SellIn < 0)  //after concert, the pass quality is set to 0
+                                Items[i].Quality = 0;
+                            else if (Items[i].SellIn < 5) //when there are 5 days or less to the concert, quality increases by 3
+                                adjustBy = 3;
+                            else if (Items[i].SellIn < 10) //Quality increases by 2 when there are 10 days or less
+                                adjustBy = 2;
+                            else //increases in Quality as it's SellIn value approaches
+                                adjustBy = 1;
+                            break;
+                        default:
+                            if (Items[i].Name.Substring(0, 8) == "Conjured")
+                                adjustBy = Items[i].SellIn < 0 ? -4 : -2; //"Conjured" items degrade in Quality twice as fast as normal items, double when after SellIn
+                            else
+                                adjustBy = Items[i].SellIn < 0 ? -2 : -1; //At the end of each day our system lowers both values for every item - Once the sell by date has passed, Quality degrades twice as fast
+                            break;
                     }
-                    else
-                    {
-                        if (Items[i].Quality < 50)
-                        {
-                            Items[i].Quality = Items[i].Quality + 1;
-                        }
-                    }
+                    ChangeIItemQualityByJ(i, adjustBy);
                 }
+                
             }
         }
 

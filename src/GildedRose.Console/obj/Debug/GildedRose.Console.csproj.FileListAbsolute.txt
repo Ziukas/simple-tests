@@ -1,0 +1,6 @@
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Console\bin\Debug\GildedRose.Console.exe.config
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Console\bin\Debug\GildedRose.Console.exe
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Console\bin\Debug\GildedRose.Console.pdb
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Console\obj\Debug\GildedRose.Console.csprojResolveAssemblyReference.cache
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Console\obj\Debug\GildedRose.Console.exe
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Console\obj\Debug\GildedRose.Console.pdb

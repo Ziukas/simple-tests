@@ -1,0 +1,15 @@
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\bin\Debug\xunit.abstractions.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\bin\Debug\xunit.runner.utility.desktop.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\bin\Debug\xunit.execution.desktop.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\bin\Debug\GildedRose.Tests.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\bin\Debug\GildedRose.Tests.pdb
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\bin\Debug\xunit.assert.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\bin\Debug\xunit.core.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\bin\Debug\xunit.assert.pdb
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\bin\Debug\xunit.assert.xml
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\bin\Debug\xunit.core.pdb
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\bin\Debug\xunit.core.xml
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\obj\Debug\GildedRose.Tests.csprojResolveAssemblyReference.cache
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\obj\Debug\GildedRose.Tests.dll
+M:\Programming\LocalThings\GilderRose\src\GildedRose.Tests\obj\Debug\GildedRose.Tests.pdb
