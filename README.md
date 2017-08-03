@@ -1,7 +1,7 @@
 # COPIED FROM - https://github.com/NotMyself/GildedRose.git
-#Gilded Rose Refactoring Kata
+Gilded Rose Refactoring Kata
 
-Original Guidelines:
+## Original Guidelines:
 
 - All items have a SellIn value which denotes the number of days we have 
 to sell the item
@@ -36,7 +36,8 @@ above 50, however "Sulfuras" is a legendary item and as such its
 Quality is 80 and it never alters.
 
 
-Observations after writing unit tests on the original code:
+## Observations
+After writing unit tests on the original code:
 + 1# After SellIn date comes, "Aged Brie" starts increasing in quality at double speed
 
 Assumptions when establishing rules for "Cojured" items:
