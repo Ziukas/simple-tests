@@ -40,8 +40,7 @@ Quality is 80 and it never alters.
 After writing unit tests on the original code:
 + 1# After SellIn date comes, "Aged Brie" starts increasing in quality at double speed
 
-Assumptions when establishing rules for "Cojured" items:
-("Conjured" items degrade in Quality twice as fast as normal items)
+Assumptions when establishing rules for "Cojured" items ("Conjured" items degrade in Quality twice as fast as normal items):
 + Conjured items do not follow special items' rules (Conjured Backstage passes, Conjured Sulfuras,Conjured Aged Brie all function as regular Conjured items)
 + Conjured items whose SellIn date has passed should decay four times as fast (This is infered from "Aged Brie" Observation 1#)
 
