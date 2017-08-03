@@ -37,7 +37,7 @@ Quality is 80 and it never alters.
 
 
 Observations after writing unit tests on the original code:
-1# After SellIn date comes, "Aged Brie" starts increasing in quality at double speed
++ 1# After SellIn date comes, "Aged Brie" starts increasing in quality at double speed
 
 Assumptions when establishing rules for "Cojured" items:
 ("Conjured" items degrade in Quality twice as fast as normal items)
